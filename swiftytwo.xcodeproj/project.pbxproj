@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0367F31B13E12C005BC6F6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0367F21B13E12C005BC6F6 /* SwiftyJSON.swift */; };
+		8B0367F41B13E12C005BC6F6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0367F21B13E12C005BC6F6 /* SwiftyJSON.swift */; };
+		8B0367FC1B13E85C005BC6F6 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0367F71B13E85C005BC6F6 /* JBBarChartView.m */; };
+		8B0367FD1B13E85C005BC6F6 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0367F71B13E85C005BC6F6 /* JBBarChartView.m */; };
+		8B0367FE1B13E85C005BC6F6 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0367F91B13E85C005BC6F6 /* JBChartView.m */; };
+		8B0367FF1B13E85C005BC6F6 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0367F91B13E85C005BC6F6 /* JBChartView.m */; };
+		8B0368001B13E85C005BC6F6 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0367FB1B13E85C005BC6F6 /* JBLineChartView.m */; };
+		8B0368011B13E85C005BC6F6 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0367FB1B13E85C005BC6F6 /* JBLineChartView.m */; };
 		8B5670F01B112A8A005D791D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5670EF1B112A8A005D791D /* AppDelegate.swift */; };
 		8B5670F21B112A8A005D791D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5670F11B112A8A005D791D /* FirstViewController.swift */; };
 		8B5670F41B112A8A005D791D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5670F31B112A8A005D791D /* SecondViewController.swift */; };
@@ -27,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B0367F21B13E12C005BC6F6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8B0367F61B13E85C005BC6F6 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		8B0367F71B13E85C005BC6F6 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		8B0367F81B13E85C005BC6F6 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		8B0367F91B13E85C005BC6F6 /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		8B0367FA1B13E85C005BC6F6 /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		8B0367FB1B13E85C005BC6F6 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+		8B0368021B13E8D2005BC6F6 /* JBChartView-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JBChartView-Bridging-Header.h"; sourceTree = "<group>"; };
 		8B5670EA1B112A8A005D791D /* swiftytwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftytwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5670EE1B112A8A005D791D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B5670EF1B112A8A005D791D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +74,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0367F51B13E85C005BC6F6 /* JBChartview */ = {
+			isa = PBXGroup;
+			children = (
+				8B0367F61B13E85C005BC6F6 /* JBBarChartView.h */,
+				8B0367F71B13E85C005BC6F6 /* JBBarChartView.m */,
+				8B0367F81B13E85C005BC6F6 /* JBChartView.h */,
+				8B0367F91B13E85C005BC6F6 /* JBChartView.m */,
+				8B0367FA1B13E85C005BC6F6 /* JBLineChartView.h */,
+				8B0367FB1B13E85C005BC6F6 /* JBLineChartView.m */,
+			);
+			name = JBChartview;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		8B5670E11B112A8A005D791D = {
 			isa = PBXGroup;
 			children = (
+				8B0367F21B13E12C005BC6F6 /* SwiftyJSON.swift */,
 				8B5670EC1B112A8A005D791D /* swiftytwo */,
 				8B5671041B112A8A005D791D /* swiftytwoTests */,
 				8B5670EB1B112A8A005D791D /* Products */,
@@ -82,9 +113,11 @@
 				8B5670EF1B112A8A005D791D /* AppDelegate.swift */,
 				8B5670F11B112A8A005D791D /* FirstViewController.swift */,
 				8B5670F31B112A8A005D791D /* SecondViewController.swift */,
+				8B0368021B13E8D2005BC6F6 /* JBChartView-Bridging-Header.h */,
 				8B5670F51B112A8A005D791D /* Main.storyboard */,
 				8B5670F81B112A8A005D791D /* Images.xcassets */,
 				8B5670FA1B112A8A005D791D /* LaunchScreen.xib */,
+				8B0367F51B13E85C005BC6F6 /* JBChartview */,
 				8B5670ED1B112A8A005D791D /* Supporting Files */,
 			);
 			path = swiftytwo;
@@ -216,8 +249,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5670F41B112A8A005D791D /* SecondViewController.swift in Sources */,
+				8B0367FE1B13E85C005BC6F6 /* JBChartView.m in Sources */,
+				8B0368001B13E85C005BC6F6 /* JBLineChartView.m in Sources */,
+				8B0367FC1B13E85C005BC6F6 /* JBBarChartView.m in Sources */,
 				8B5670F01B112A8A005D791D /* AppDelegate.swift in Sources */,
 				8B5670F21B112A8A005D791D /* FirstViewController.swift in Sources */,
+				8B0367F31B13E12C005BC6F6 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0368011B13E85C005BC6F6 /* JBLineChartView.m in Sources */,
+				8B0367FD1B13E85C005BC6F6 /* JBBarChartView.m in Sources */,
+				8B0367FF1B13E85C005BC6F6 /* JBChartView.m in Sources */,
 				8B5671081B112A8A005D791D /* swiftytwoTests.swift in Sources */,
+				8B0367F41B13E12C005BC6F6 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +390,7 @@
 				INFOPLIST_FILE = swiftytwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 			};
 			name = Debug;
 		};
@@ -415,6 +457,7 @@
 				8B56710D1B112A8A005D791D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B56710E1B112A8A005D791D /* Build configuration list for PBXNativeTarget "swiftytwoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +466,7 @@
 				8B5671101B112A8A005D791D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
